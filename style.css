@@ -1,0 +1,52 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    color: wheat;
+}
+
+button{
+    height: 35px;
+}
+
+input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+button {
+    flex: 0 0 auto;
+}
+
+button:hover {
+    background-color: #3a3b3c;
+    color: white;
+}
+
+.blur {
+    filter: blur(5px);
+}
+
+.center {
+    max-width: 1600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+body {
+    background-color: #141414;
+}
+
+.card {
+    background-color: #282828;
+}

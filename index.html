@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Guess the Number</title>
+    <!-- jquery -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <div class="center">
+
+        <h1>Guess the number!</h1>
+        <br>
+
+        <div class="column">
+
+            <div class="left"> 
+                <h2>Guess a number 1-100</h2>
+                <br>
+                <br>
+                <h3 class="result">Result shows here.</h3>
+                <br>
+                <div class="column">
+                    <input class="clientGuess">
+                    <button class="guessButton" onclick="evaluateGuess()">Guess</button>
+                </div>
+            </div>
+    
+            <div class="right"> 
+                <h2>Guess the number below!</h2>
+                <br>
+                <br>
+                <div class="blur"> <h3 class="currentAnswer"></h3> </div>
+                <br>
+                <div class="column">
+                    <button class="revealButton" onclick="toggleHideAnswer()">Reveal Answer</button>
+                    <button class="newAnswerButton" onclick="refreshCurrentAnswer()">New Answer</button>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
