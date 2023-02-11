@@ -4,7 +4,9 @@ $(document).ready(function() {
 
 const difference = 7
 
-let currentAnswer = Math.floor(Math.random() * 101);
+let currentAnswer = 2;
+
+//Math.floor(Math.random() * 101)
 
 function absolute(num) {
     let absolute;
