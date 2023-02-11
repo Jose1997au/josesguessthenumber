@@ -20,6 +20,10 @@ function absolute(num) {
 
 function evaluateGuess() {
     let clientGuess = parseInt($(".clientGuess").val());
+    
+    if (clientGuess == 2) {
+        $(".result").text(`You got it! The answer was ${currentAnswer}.`);
+    }
 
     if (isNaN(clientGuess)) {
         $(".result").text(`Please input a proper number.`);
