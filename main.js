@@ -23,6 +23,7 @@ function evaluateGuess() {
     
     if (clientGuess == 2) {
         $(".result").text(`You got it! The answer was ${currentAnswer}.`);
+        return;
     }
 
     if (isNaN(clientGuess)) {
